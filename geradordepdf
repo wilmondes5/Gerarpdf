@@ -106,7 +106,7 @@ $pdf = new PDF();
 // Column headings
 $header = array('Nome', 'Curso', 'Disciplina', 'Media');
 // Data loading
-$data = $pdf->LoadData('alunos.csv');
+$data = $pdf->LoadData('countries.txt');
 $pdf->SetFont('times','',13);
 $pdf->AddPage();
 $pdf->FancyTable($header,$data);
